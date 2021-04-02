@@ -1,7 +1,7 @@
 const axios = require('axios');
 const countries = require('./countries.json');
 require('dotenv').config();
-
+console.log(countries);
 async function getNews(country) {
   try {
     console.log(process.env.API_KEY)
