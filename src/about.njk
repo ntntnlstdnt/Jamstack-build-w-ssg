@@ -9,6 +9,6 @@ layout: base.njk
   <p>Page was made using html and CSS...</p>
 </div>
 
-{% for item in news %}
+{%- for item in news %}
   <a href="/{{ item.country }}"> {{ item.country }}</a>
-{% endfor %}
+{%- endfor %}
