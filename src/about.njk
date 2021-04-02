@@ -8,3 +8,7 @@ layout: base.njk
   <h1> This page is for you </h1>
   <p>Page was made using html and CSS...</p>
 </div>
+
+{% for item in news %}
+  <a href="/{{ item.country }}"> {{ item.country }}</a>
+{% endfor %}
